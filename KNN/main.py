@@ -24,13 +24,15 @@ X_test = scalar.transform(X_test)
 
 
 # There is no training because KNN classify based on distance.
-model = KNeighborsClassifier(n_neighbors=2).fit(X_train, y_train)
+model = KNeighborsClassifier(n_neighbors=3).fit(X_train, y_train)
 y_pred = model.predict(X_test)
+
+# with small K it it has good acccuracy on training set but bad at generalization.
 print ("Train set Accuracy: ", accuracy_score(y_train, model.predict(X_train)))
 print ("Test set Accuracy: ", accuracy_score(y_test, y_pred))
 
 
-"""K = 10
+K = 10
 acc = np.zeros((K))
 for n in range(1,K+1):
     #Train Model and Predict  
@@ -42,6 +44,6 @@ def model_accuracy(model_list):
     for i in range(0,K):
         print("Accuracy for k=",i+1,"is",model_list[i])
 
-print ("Accuracy with different number of K:", model_accuracy(acc))"""
+print ("Accuracy with different number of K:", model_accuracy(acc))
     
 
