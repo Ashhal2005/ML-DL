@@ -1,6 +1,6 @@
 My machine learning and deep learning coursework and experiments.
 
--> Classification
+-> Classification:
 [RainPredictor](./RainPredictor) —> Rainfall prediction using the Australian weather dataset
 [Titanic](./Titanic) . Survival prediction using the classic Titanic dataset
 [KNN](./KNN) —> K-Nearest Neighbors classification
@@ -9,13 +9,13 @@ My machine learning and deep learning coursework and experiments.
 [AppropriateDrug](./AppropriateDrug) —> Drug recommendation/classification
 [MNIST](./MNIST) —> Handwritten digit classification
 
--> Clustering
+-> Clustering:
 [K-mean](./K-mean) —> K-Means clustering
 [DBSCANvsHDBSCAN](./DBSCANvsHDBSCAN) —> Comparison of DBSCAN and HDBSCAN
 
--> Ensemble Learning
+-> Ensemble Learning:
 [RF-vs-XGB](./RF-vs-XGB) —> Random Forest vs XGBoost performance comparison
 
--> Dimensionality Reduction
-[DemReduction](./DemReduction) —> Dimensionality reduction techniques
+-> Dimensionality Reduction:
+[DemReduction](./DemReduction)
 
